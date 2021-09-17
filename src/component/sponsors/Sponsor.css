@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.icon{
+    text-align: center;
+    background-color: #fafafa;
+    padding:5% 5% 6.5%;
+}
+
+.icon a{
+    padding: 0 60px;
+}
+
+
+
+.back{
+    margin-top: 50px;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 262px;
+
+    /* dark-background-color */
+    background: #252B42;
+}
+
+.back .front{
+    position: relative;
+    bottom: 57%;
+    width: 70%;
+    height: 100px;
+    
+    background: #16697A;
+    border-radius: 2px;
+    margin-left: 15%;
+    padding: 1.5% 3% 6%;
+}
+
+.back .front h3{
+    float: left;
+    margin-right: 21%;
+    width: 30%;
+    color: #fff;
+}
+
+.back .front .form input{
+   /* padding: 20px 100px 10px 20px; */
+   width: 300px;
+    height: 58px;
+    margin-right: 0.5px;
+   border-radius: 5px 0 0 5px;
+   padding-left: 10px;
+   border: 1px solid #fff;
+   /* margin-top: 10px; */
+   outline: none;
+}
+.form{
+    border-radius: 5px;
+    /* background-color: #fff; */
+}
+.back .front .form .button{
+    color: #fff;
+    font-weight: 700;
+    width: 160px;
+    height: 58px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFA62B;
+    border: 1px solid #FFA62B;
+    transition: all .8s ease;
+    
+}
+.back .front .form .button:hover{
+    background: #fd6017;
+}

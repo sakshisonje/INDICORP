@@ -1,0 +1,72 @@
+.gallery{
+    background-color: #ffffff;
+    padding: 5% 10%;
+}
+
+.gallery .gallery-text{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.gallery .gallery-text h2{
+    font-weight: 700;
+    list-style: 30px;
+    padding: 2% 30% 1%;
+    color: #252B42;
+}
+
+.gallery .gallery-text p{
+    font-weight: 500;
+    line-height: 24px;
+    color: #737373;
+    padding: 1% 30% 2% ;
+}
+
+.video-js .vjs-big-play-button{
+    background-color: #00A0C1 !important;
+    color: #fff;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 100% !important;
+    /* margin-left: -5px !important; */
+    font-size: 2.7rem !important;
+    border: 1px solid #00A0C1 !important;
+}
+.gallery .text{
+    padding-left: 8%;
+}
+.gallery .text h2{
+    font-weight: 800;    
+    width: 80%;
+    color:#252B42;
+}
+
+.gallery .text p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2% 20% 4% 0;
+    width: 100%;
+    color: #737373;
+}
+
+.gallery .text .info1 span{ 
+    float: left;
+    padding-right: 3%;
+    
+}
+
+h5{
+    color:#252B42;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    padding-left: 8%;
+    padding-bottom: 4%;
+}
