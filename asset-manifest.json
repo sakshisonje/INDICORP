@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/INDICORP/static/css/main.94ef16e7.chunk.css",
+    "main.css": "/INDICORP/static/css/main.d286b1d7.chunk.css",
     "main.js": "/INDICORP/static/js/main.86fa3491.chunk.js",
     "main.js.map": "/INDICORP/static/js/main.86fa3491.chunk.js.map",
     "runtime-main.js": "/INDICORP/static/js/runtime-main.1ebec8fd.js",
@@ -10,7 +10,7 @@
     "static/js/2.448c313b.chunk.js.map": "/INDICORP/static/js/2.448c313b.chunk.js.map",
     "index.html": "/INDICORP/index.html",
     "static/css/2.818011ed.chunk.css.map": "/INDICORP/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.94ef16e7.chunk.css.map": "/INDICORP/static/css/main.94ef16e7.chunk.css.map",
+    "static/css/main.d286b1d7.chunk.css.map": "/INDICORP/static/css/main.d286b1d7.chunk.css.map",
     "static/js/2.448c313b.chunk.js.LICENSE.txt": "/INDICORP/static/js/2.448c313b.chunk.js.LICENSE.txt",
     "static/media/1.5aaa53e8.jpg": "/INDICORP/static/media/1.5aaa53e8.jpg",
     "static/media/Header.css": "/INDICORP/static/media/background.396e330f.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.1ebec8fd.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.448c313b.chunk.js",
-    "static/css/main.94ef16e7.chunk.css",
+    "static/css/main.d286b1d7.chunk.css",
     "static/js/main.86fa3491.chunk.js"
   ]
 }
