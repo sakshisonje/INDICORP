@@ -96,6 +96,11 @@
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 
 }
+.card1 .textcard .cardbox:hover{
+    box-shadow:none;
+    transform: translateY(0.1rem);
+    transition: transform 200ms;
+}
 .card1 .textcard .cardbox img{
     padding-bottom: 5%;
 }
