@@ -4,16 +4,19 @@ import {Container,Navbar,Nav,Row,Col,Card,Button} from 'react-bootstrap';
 import img1 from './images/Vector.png';
 import img2 from './images/Vector (1).png';
 import img3 from './images/Vector (2).png';
+import ham from './images/hamburger.png';
 
 function Header()
 {
     return (
         <div className="header" id="home">
             <Container>
-                <Navbar className="navbar">
+                <Navbar className="navbar" expand="lg">
                     <Container>
                         <Navbar.Brand className="logo" href="#">Indicorp</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Toggle aria-controls="basic-navbar-nav">
+                            <span><img src={ham}/></span>
+                        </Navbar.Toggle>
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             <Nav.Link className="Navlink" href="#home">Home</Nav.Link>

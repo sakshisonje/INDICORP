@@ -5,7 +5,7 @@ import video from './images/video.mp4'
 import './Gallery.css';
 function Video(){
     return (
-        <div>
+        <div className="office">
             <VideoPlayer 
                 src={video}
                 poster ={picture}

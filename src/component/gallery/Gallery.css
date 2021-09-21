@@ -1,17 +1,18 @@
 .gallery{
     background-color: #ffffff;
-    padding: 5% 10%;
+    padding: 10rem 20rem;
 }
 
 .gallery .gallery-text{
     text-align: center;
-    padding-bottom: 4%;
+    padding-bottom: 5rem;
 }
 
 .gallery .gallery-text h2{
+    font-size: 3rem;
     font-weight: 700;
     list-style: 30px;
-    padding: 2% 30% 1%;
+    padding: 4rem 35rem 2rem;
     color: #252B42;
 }
 
@@ -19,54 +20,125 @@
     font-weight: 500;
     line-height: 24px;
     color: #737373;
-    padding: 1% 30% 2% ;
+    padding: .5rem 30rem 2rem ;
+    font-size: 1.4rem;
 }
 
 .video-js .vjs-big-play-button{
     background-color: #00A0C1 !important;
     color: #fff;
-    width: 70px !important;
-    height: 70px !important;
+    width: 7rem !important;
+    height: 7rem !important;
     border-radius: 100% !important;
     /* margin-left: -5px !important; */
-    font-size: 2.7rem !important;
+    font-size: 5.5rem !important;
+     
+    padding: 0 4rem 8rem !important;
     border: 1px solid #00A0C1 !important;
 }
 .gallery .text{
-    padding-left: 8%;
+    padding-left: 12rem;
 }
 .gallery .text h2{
     font-weight: 800;    
     width: 80%;
     color:#252B42;
+    font-size: 3rem;
 }
 
 .gallery .text p{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
-    padding: 2% 20% 4% 0;
+    padding: 3rem 6rem 3rem 0;
     width: 100%;
     color: #737373;
 }
 
 .gallery .text .info1 span{ 
     float: left;
-    padding-right: 3%;
+    padding-right: 2rem;
     
 }
 
 h5{
     color:#252B42;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 h6{
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 24px;
     color: #737373;
-    padding-left: 8%;
-    padding-bottom: 4%;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
 }
+
+
+@media only screen and (max-width:998px){
+    .gallery{
+        padding: 5rem 2rem;
+    }
+
+    .gallery .gallery-text h2{
+        font-size: 2.5rem;
+        padding: 1rem 16rem 2rem;
+       
+    }
+
+    .gallery .text p{
+        font-size: 1rem;
+        padding: 2rem 1rem;
+       
+    }
+    .gallery .video{
+       margin-left: 6rem;
+       margin-bottom: 6rem;
+    }
+    .gallery .text{
+        padding-left: 20rem;
+    }
+
+    .gallery .text p{
+        font-size: 1.6rem;
+        padding-right: 8rem;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .gallery .gallery-text h2{
+        font-size: 2.5rem;
+        padding: 1rem 6rem 2rem;
+       
+    }
+    .gallery .gallery-text p{
+        font-size: 1.4rem;
+        padding: 0.5rem 2rem 2rem !important ;
+    }
+    .gallery{
+        padding: 5rem 0;
+    }
+    .gallery .video{
+        margin-left: 10rem;
+        margin-bottom: 0;
+        /* width: 60%; */
+     }
+     .gallery .text{
+        padding-left: 8rem;
+        padding-top: 3rem;
+    }
+    .office .video-js{
+       
+        height: 17rem;
+        width: 30rem;
+    }
+    .video-js .vjs-big-play-button{
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+        font-size: 4rem !important;
+        padding: 3rem !important;
+    }
+}
+

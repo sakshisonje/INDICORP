@@ -1,35 +1,36 @@
 .container2{
     text-align: center;
     background: #FAFAFA;
-    padding-bottom: 5%;
+    padding-bottom: 4rem;
 }
 .container2 .content{
-    padding-top: 8%;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-top: 18rem;
+    margin-left: 44rem;
+    margin-right: 44rem;
 }
 .container2 .content h2{
     color: #252B42;
     font-weight: 800;
-    font-size: 40px;
-    line-height: 57px;
+    font-size: 4rem;
+    /* line-height: 57px; */
 }
+
 .container2 .content p{
     color: #737373;
     letter-spacing: 0.2px;
     font-weight: 500;
-    font-size: 18px;
-    margin-top: 2%;
-    margin-bottom: 8%;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 .cards .row{
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 14rem;
+    margin-right: 14rem;
 }
 .cards .row .col{
     background: #ffff;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     border: 1px solid rgb(245, 245, 245);
     transition: all .5s ease;
 }
@@ -41,19 +42,19 @@
 }
 .cards .row .col .title{
     text-align: left;
-    padding-top: 9%;
+    padding-top: 4rem;
     padding-right: 30%;
 }
 .cards .row h5{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 2rem;
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #252B42;
 }
 .cards .row p{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
@@ -62,3 +63,39 @@
     width: 100%;
     padding-top: 6%;
 } */
+
+@media only screen and (max-width:998px){
+    .container2 .content{
+        padding-top: 9rem;
+        margin-left: 18rem;
+        margin-right: 18rem;
+    }
+
+    .cards .row{
+        margin-left: 8rem;
+        margin-right: 7rem;
+        margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .container2 .content{
+        padding-top: 9rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .container2 .content h2{
+        
+        font-size: 3rem;
+        /* line-height: 57px; */
+    }
+    .container2 .content p{
+        
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    .cards .row .col{
+        margin-bottom: 4rem;
+    }
+}

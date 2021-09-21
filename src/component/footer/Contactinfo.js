@@ -12,7 +12,7 @@ function Contactinfo(){
             <div className="form">
                 <form>
                    <div className="input-box">
-                       <label for="name">First Name</label><br/>
+                       <label for="name" >First Name</label><br/>
                        <input type="text" class="name" id="name"/>
                    </div>
                    <div className="input-box">

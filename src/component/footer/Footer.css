@@ -1,19 +1,25 @@
 .contact-info{
     background-color: #fafafa;
-    padding: 2.5% 10%;
+    /* padding: 2.5% 10%; */
+    padding: 4rem 16rem;
+    color: #000;
 }
 
 .contact-info .contact-text{
     /* float: left; */
-    margin-right: 40%;
+    /* margin-right: 40%; */
     
 }
-
+label{
+    color: #000;
+    font-size: 1.4rem;
+}
 .contact-info .contact-text h3{
     font-weight: 700;
-    line-height: 32px;
+    line-height: 3.2rem;
     color: #252B42;
     margin-bottom: 2%;
+    font-size: 2.4rem;
 }
 
 .contact-info .contact-text p{
@@ -21,19 +27,21 @@
     color: #737373;
     line-height: 20px;
     padding-bottom: 5%;
+    font-size: 1.4rem;
 }
 
 .contact-info .form .button2{
     color: #fff;
     font-weight: 700;
-    width: 150px;
-    height: 50px;
+    width: 15rem;
+    height: 5rem;
     background-color: #FFA62B;
     border: 1px solid #FFA62B;
     transition: all .5s ease;
     position: relative;
     left:13%;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-size: 1.4rem;
 }
 .form .input-box input{
     width: 40%;
@@ -42,9 +50,11 @@
     border:1px solid rgb(207, 207, 207);
     outline:#fd6017;
     margin-bottom: 1%;
+    font-size: 1.4rem;
 }
 .form .input-box textarea{
     width: 40%;
+    font-size: 1.4rem;
     border-radius: 5px;
     padding: 0.5% 0.3%;
     border:1px solid rgb(209, 209, 209);
@@ -73,7 +83,7 @@
 .contact h5{
     /* font-size: 16px; */
     font-weight: 700;
-    line-height: 24px;
+    line-height: 2.4rem;
     margin-bottom: 10%;
     color: #fff;
 }
@@ -81,9 +91,9 @@
 .contact a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 4rem;
     
 }
 
@@ -107,11 +117,66 @@
     float: left;
     margin-right: 54%;
     color: #737373;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 2.4rem;
 }
 .copyright img{
-    margin: 0 10px;
+    margin: 0 1rem;
 }
 
+@media only screen and (max-width:998px){
+    .contact-info .form .button2{
+        margin-left: 14rem;
+        margin-top: 3rem;
+    }
+    .contact h5{
+        margin-top: 6rem;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .contact-info{
+        
+        padding: 4rem 5rem;
+        color: #000;
+    }
+    .contact-info .form .button2{
+        
+        position: relative;
+        left:-2rem;
+        margin-top: 10%;
+        font-size: 1.4rem;
+    }
+    .contact{
+        
+        padding: 2.5% 2%;
+        color: #fff;
+    }
+    .contact h5{
+        /* font-size: 16px; */
+        
+        margin-bottom: 2%;
+    }
+    
+    .contact a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 4rem;
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .contact a span{
+        margin-right: 0;
+        
+       
+    }
+    .contact .col{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 0;
+    }
+}

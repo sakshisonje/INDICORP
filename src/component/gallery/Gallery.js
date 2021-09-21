@@ -13,7 +13,7 @@ function Gallery(){
                 <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
             </div>
             <Row className="row">
-                <Col>
+                <Col className="video">
                     <Video />  
                 </Col>
                 <Col className="text">

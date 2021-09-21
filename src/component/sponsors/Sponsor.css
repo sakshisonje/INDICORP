@@ -1,30 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-*{
-    margin: 0 ;
-    padding: 0 ;
-    font-family: 'Montserrat', sans-serif;
-}
 
 
 .icon{
     text-align: center;
     background-color: #fafafa;
-    padding:5% 5% 6.5%;
+    padding:4rem 9rem 12rem;
 }
 
 .icon a{
-    padding: 0 60px;
+    padding: 0 6rem;
 }
 
 
 
 .back{
-    margin-top: 50px;
-    height: 100px;
-    left: 0px;
-    right: 0px;
-    top: 262px;
+    margin-top: 5rem;
+    height: 10rem;
+    top: 26.2rem;
 
     /* dark-background-color */
     background: #252B42;
@@ -32,14 +25,14 @@
 
 .back .front{
     position: relative;
-    bottom: 57%;
+    bottom: 6rem;
     width: 70%;
-    height: 100px;
+    height: 10rem;
     
     background: #16697A;
     border-radius: 2px;
-    margin-left: 15%;
-    padding: 1.5% 3% 6%;
+    margin-left: 20rem;
+    padding: 3rem 3% 6%;
 }
 
 .back .front h3{
@@ -47,36 +40,110 @@
     margin-right: 21%;
     width: 30%;
     color: #fff;
+    font-size: 2rem;
 }
 
 .back .front .form input{
    /* padding: 20px 100px 10px 20px; */
-   width: 300px;
-    height: 58px;
-    margin-right: 0.5px;
-   border-radius: 5px 0 0 5px;
-   padding-left: 10px;
+   width: 30rem;
+    height: 5.8rem;
+    margin-right: 0.05rem;
+   border-radius: 0.5rem 0 0 0.5rem;
+   padding-left: 1rem;
    border: 1px solid #fff;
    /* margin-top: 10px; */
    outline: none;
 }
 .form{
-    border-radius: 5px;
+    border-radius: 0.5rem;
     /* background-color: #fff; */
 }
 .back .front .form .button{
     color: #fff;
     font-weight: 700;
-    width: 160px;
-    height: 58px;
+    width: 16rem;
+    height: 5.8rem;
     position: relative;
-    bottom: 1px;
+    bottom: 0.1rem;
     border-radius: 0 5px 5px 0;
     background-color: #FFA62B;
     border: 1px solid #FFA62B;
     transition: all .8s ease;
+    font-size: 1.4rem;
     
 }
 .back .front .form .button:hover{
     background: #fd6017;
+}
+
+
+@media only screen and (max-width:998px){
+    .icon{
+        text-align: center;
+        background-color: #fafafa;
+        padding:4rem 9rem 16rem;
+    }
+    .icon a{
+        display: inline-block;
+        padding: 2rem 6rem;
+        
+    }
+    .back .front{
+        right: 11rem;
+        width: 80%;
+        height: 12rem;
+    }
+    .back .front .form input{
+        margin-top: 0;
+        width:25rem;
+        padding-left: 0;
+    }
+    .back .front h3{
+        margin-right: 4rem;
+        margin-bottom: 1rem !important;
+        
+    }
+    .back .front .form .button{
+        bottom: 0;
+    }
+    
+
+}
+
+@media only screen and (max-width:450px){
+    .icon{
+        /* text-align: center; */
+        background-color: #fafafa;
+        /* padding:4rem 9rem 5rem; */
+        padding: 0;
+        padding: 2rem 6rem 6rem;
+    }
+    .icon a{
+        display: inline;
+        /* padding: 2rem 9rem 3rem!important; */
+        padding: 1rem 2.5rem 10rem;
+        
+    }
+    .icon a img{
+        width: 6rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+
+    }
+    .back .front{
+        text-align: center;
+        right: 17rem;
+        width: 90%;
+        height: 14rem;
+        bottom: 7rem;
+    }
+    .back .front h3{
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .back .front .form input{
+        margin-right: 0;
+    }
 }
